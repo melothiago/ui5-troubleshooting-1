@@ -1,26 +1,23 @@
-<mvc:View 
-	displayBlock="true"
-	height="100%"
-	controllerName="ovly.logica"
-	xmlns:mvc="sap.ui.core.mvc" 
-	xmlns="sap.f" 
-	>
+<mvc:View displayBlock="true" height="100%" controllerName="ovly.logica" xmlns:mvc="sap.ui.core.mvc" xmlns:f="sap.f" xmlns="sap.m">
 	<App>
 		<pages>
 			<Page title="Troubleshooting - Semana 1" class="sapUiResponsiveContentPadding">
 				<content>
-					<GenericTile header="Bootstraping com CDN" subheader="Exercício 1" class="sapUiSmallMargin" press="ex1" />
-					<GenericTile header="Bootstraping com neo-app.json" subheader="Exercício 2" class="sapUiSmallMargin" press="ex2" />
-					<GenericTile header="Controles com JS" subheader="Exercício 3" class="sapUiSmallMargin" press="ex3 />
-					<!--
-						Completar
-					-->
+					<GenericTile header="Bootstraping com CDN" subheader="Exercício 1" class="sapUiSmallMargin" press="ex1"/>
+					<GenericTile header="Bootstraping com neo-app.json" subheader="Exercício 2" class="sapUiSmallMargin" press="ex2"/>
+					<GenericTile header="Controles com JS" subheader="Exercício 3" class="sapUiSmallMargin" press="ex3"/>
+					<GenericTile header="Alterar Themes" subheader="Exercício 4" class="sapUiSmallMargin" press="ex4"/>
+					<GenericTile header="Carregar UI5" subheader="Exercício 5" class="sapUiSmallMargin" press="ex5"/>
+					<GenericTile header="Carregar Pagina Corretamente" subheader="Exercício 6" class="sapUiSmallMargin" press="ex6"/>
+					<GenericTile header="Implementar Funcionalidades" subheader="Exercício 7" class="sapUiSmallMargin" press="ex7"/>
+					<GenericTile header="Carregar Pagina Corretamente 2" subheader="Exercício 8" class="sapUiSmallMargin" press="ex8"/>
+					<GenericTile header="Carregar Pagina Corretamente 3" subheader="Exercício 9" class="sapUiSmallMargin" press="ex9"/>
 				</content>
 				<footer>
 					<Toolbar>
 						<content>
-							<ToolbarSpacerr />
-							<Button text="GitHub" type="Emphasized" press="onOpenGitHub" />
+							<ToolbarSpacer/>
+							<Button text="GitHub" type="Emphasized" press="onOpenGitHub"/>
 						</content>
 					</Toolbar>
 				</footer>
